@@ -1,0 +1,13 @@
+config: test_bot_config
+
+verbose: true
+
+io:
+  file_path: RPackage/data/test_data_disc.rda
+
+params:
+  train_proportion: 0.7 # Implies that test propotrion will be 0.3
+  number_of_factors: 2
+
+model:
+  model: "log_lasso"

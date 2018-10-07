@@ -1,0 +1,15 @@
+Package: KnowledgeTest
+Type: Package
+Title: TestOfKnowledge
+Version: 0.1
+Date: 2018-10-07
+Author: Per Marcus
+Maintainer: Per Marcus <per.marcus@gmail.com>
+Description: This package aims to show my skills
+Dependencies:
+   dplyr,
+   lubridate
+Recomends:
+   testthat
+License: None
+RoxygenNote: 6.1.0
